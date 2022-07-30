@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    min-height: 1000px;
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    min-height: 100vh;
+    margin: 50px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+.container .left-side{
+    position: relative;
+    background-color: #003147;
+    padding: 40px;
+}
+.container .right-side{
+    position: relative;
+    background-color: #fff;
+    padding: 40px;
+}
+.profile{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.profile  .img-1{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow:hidden ;
+
+}
+.profile  .img-1 img{
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+ h2{
+    color: #fff;
+    font: 1.5em;
+    margin-top: 20px;
+    text-align:center ;
+    font-weight: 600;
+    line-height: 1.5em;
+}
+ h2 span{
+    font-size: 0.8em;
+    font-weight: 300;
+    color: #fff;
+    text-transform: uppercase;
+}
+.contact{
+    padding-top: 40px;
+}
+.tittle{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.contact ul{
+    position: relative;
+
+}
+.contact ul li{
+    position: relative;
+     list-style: none;
+     margin: 10px 0;
+     cursor: pointer;
+
+}
+ .con-icon{
+    display: inline-block;
+    font-size: 20px;
+    color: #03a9f4;
+
+}
+.contact ul li span{
+    color:#fff ;
+    font-weight: 300;
+}
+.education li{
+    margin-bottom: 15px;
+
+}
+.education li h5{
+    color: #03a9f4;
+    font-weight: 500;
+}
+.education li h4:nth-child(2){
+    color: #fff;
+    font-weight: 300;
+}
+.education li h4{
+    color: #fff;
+    font-weight: 500;
+}
+.education .tittle{
+    margin-top: 20px;
+}
+.ECE{
+    text-transform: uppercase;
+}
+.lan .percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background-color: black;
+    display: block;
+    margin-top: 5px;
+}
+.lan .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color:#03a9f4 ;
+}
+.lan .text{
+    color: #fff;
+    font-weight: 500;
+}
+.lan ul li{
+    list-style: circle;
+    color: whitesmoke;
+}
+.tittle2{
+    color: #000;
+   font-size: 25px;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+    
+}
+.aaa{
+    margin-top: 10px;
+    width: 200px;
+    border-bottom: 1px solid black;
+    margin-left: 100px;
+}
+.pname{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 300;
+    
+    
+}
+.ans{
+    text-transform: capitalize;
+    font-size: 18px;
+    
+
+}
+.about{
+    margin-top: 20px;
+}
+ .he{
+    color: #000;
+    text-transform: uppercase;
+    position: relative;
+    top: 20px;
+ }
+ .pro .percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background-color: black;
+    display: block;
+    margin-top: 5px;
+    padding-top: 10px;
+}
+.pro .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color:#03a9f4 ;
+}
+.pro ul li{
+    list-style: inside;
+}
+.q{
+    margin-top: 20px;
+}
+.para{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+    justify-items: center;   
+    margin-top: 5px;
+    text-align: center;
+}
